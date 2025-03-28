@@ -1,6 +1,5 @@
 import barco as b
 import numpy as np
-import os
 import random
 import tablero as t
 import variables as v
@@ -308,13 +307,6 @@ def comprobar_victoria(tablero):
             print("te gano la maquina ")
 
         v.jugando = False
-
-        nueva_partida = input("¿Quieres jugar de nuevo? (s/n): ").strip().lower() ##########################################################
-        if nueva_partida == "s":
-            os.system("cls")
-            os.system("main.py")
-
-            
     
 
     
